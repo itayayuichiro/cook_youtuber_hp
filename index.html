@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    html {
+      font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;font-size:106.25%;quotes:"“" "”"
+    }
+    .container{
+        width:980px;
+        margin:0 auto;
+    }
+    .recommend {
+        margin-bottom: 10px;
+        width: 100%;
+        display: block;
+        height: 315px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 110px;
+    }
+    .recommend .label{
+        width:40%;
+        font-weight:600;
+    }
+    .recommend iframe{
+        width:60%;
+    }
+    .recommend .right{
+      margin-left: 30px;
+      float: right;
+    }
+    .recommend .left{
+      float: left;
+    }
+
+    .series{
+     font-size: 21px; 
+    }
+    .title{
+      margin-top: 0px;
+      margin-bottom: 0px;
+     font-size: 46px; 
+    }
+    .sub_title{
+     font-size: 23px; 
+     margin-bottom: 28px;
+    }
+    .ranking {
+      color: #f56300;
+      font-size: 21px; 
+      margin-bottom:0.2em;
+    }
+    .movie_link{
+      border-radius: 18px;
+      background-color: #ff0100;
+      padding: 10px 18px;
+      color: white;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    
+  </style>  
+</head>
+<body>
+  <div class="container">
+    <h1>僕のすすめる料理動画3選</h1>
+    <div class="recommend">
+          <div class="label left">
+            <div class="ranking">第一位</div>
+            <span class="series">【至高シリーズ】</span>
+            <h2 class="title">ペペロンチーノ</h2>
+            <div class="sub_title">料理研究家が辿り着いた最高の一皿</div>
+            <a href="https://www.youtube.com/watch?v=Jx-tqntWPCM" class="movie_link">動画</a>
+          </div>
+          <iframe class="right"  height="315" src="https://www.youtube.com/embed/Jx-tqntWPCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+      </div>
+      <div class="recommend">
+          <iframe class="left" width="560" height="315" src="https://www.youtube.com/embed/MQFEBR4Eo1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="label right">
+            <div class="ranking">第二位</div>
+            <span class="series">【悪魔シリーズ】</span>
+            <h2 class="title">万能ネギ</h2>
+            <div class="sub_title">もう、醤油には戻れない</div>
+            <a href="https://www.youtube.com/watch?v=7il2sEYzMYA" class="movie_link">動画</a>
+        </div>
+    </div>
+      <div class="recommend">
+          <div class="label left">
+              <div class="ranking">第三位</div>
+              <span class="series">【レンチンシリーズ】</span>
+              <h2 class="title">サラダチキン</h2>
+              <div class="sub_title">もう市販のサラダチキンはいらない</div>
+              <a href="https://www.youtube.com/watch?v=7il2sEYzMYA" class="movie_link">動画</a>
+          </div>
+          <iframe class="right" width="560" height="315" src="https://www.youtube.com/embed/7il2sEYzMYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+      </div>
+</body>
+</html>
